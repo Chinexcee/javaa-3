@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+
+
+
+  <script>
+    var pets = ['dogs', 'cats', 'birds'];
+    pets.pop();
+    pets.push('camel')
+    pets.shift()
+    pets.unshift('donkey', 'goat', 'lion')
+    pets.splice(0, 2, );
+    console.log(pets);
+
+
+    var firstNames = ["BlueRay ", "Upchuck ", "Lojack ", "Gizmo ", "Do-Rag ", "chinedu ", "Irene ", "Cee "];
+    var lastNames = ["Zzz", "Burp", "Dogbone", "Droop", "Mbachu", "Kadiri", "Nwaigwe"];
+    var fullNames = [];
+    for (var i = 0; i < firstNames.length; i++) {
+    for (var j = 0; j < lastNames.length; j++) {
+    fullNames.push(firstNames[i] + lastNames[j]);
+
+   }
+  }
+  console.log(fullNames);
+  </script>
+</body>
+</html>
